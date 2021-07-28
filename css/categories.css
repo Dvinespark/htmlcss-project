@@ -1,0 +1,65 @@
+
+.fur {
+    background-image: url(images/electronics.jpg);
+  }
+  .categories {
+    font-size: 20px;
+    color: red
+  }
+  .categoriesTable {
+    margin-top: 2%;
+    border: 1px solid darkolivegreen;
+    width: 50%;
+    margin-left: 10px;
+  }
+  #categoriesForm {
+    margin-top: 2%;
+    margin-left: 10px;
+  }
+  #categoriesForm select, #categoriesForm button {
+      margin-bottom: 10px;
+  }
+ #categoriesForm button {
+    margin-top: 10px;
+}
+  #location img {
+    width: 480px;
+    height: 300px;
+  }
+  
+  #location {
+    display: flex;
+  }
+  
+  #location span {
+    width: 30%;
+  }
+  
+  .country{
+    font-size: 20px;
+    color: rebeccapurple;
+    
+  }
+  .category-item-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+  }
+  .category-item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: azure;
+  }
+  .category-item .item {
+    width: 33.33%;
+  }
+  
+  .categoryDiv > span a {
+    display: block;
+  } 
+  .categoryDiv {
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }

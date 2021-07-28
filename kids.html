@@ -1,25 +1,32 @@
 <html>
-<head>
-	<title>Metro - All your shopping sorted here</title>
-	<link rel="stylesheet" type="text/css"href="stylesheet.css"/>	
-</head>
+	<head>
+		<title>Metro - All your shopping sorted here</title>
+		<link rel="stylesheet" type="text/css"href="css/home.css"/>
+	</head>
 
-<header>
-	<ul>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="map.html">Map</a></li>
-		<li><a href="about_us.html">About Us</a></li> 
-		<li><a href="">Contact Us</a></li>   
-	</ul>
-</header>
-
-<body>
+	<body class="homePage">
+		<div class= "logo">
+			Welcome to Metro - All your shopping sorted here !!!
+		</div>
+			<nav class="navbar">
+				<ul>
+					<li class="nav-left"><a href="home.html">Home</a></li>
+					<li class="nav-left"><a href="map.html">Map</a></li>
+					<li class="nav-left"><a href="about_us.html">About Us</a></li> 
+					<li class="nav-left"><a href="">Contact Us</a></li>   	
+					<li class="nav-right searchbar">
+							<input type="text" placeholder="Search item.." name="search">
+							<button type="submit">Search</button>
+					</li>
+					<li class="nav-right"><a href="cart.html"> Go to Cart </a></li>
+				</ul>
+			</nav>
 
 	<hr>
 	<div class="categories">Kids Shirts</div>
 	<hr>
 	<div style="display:flex">
-		<img src="images/kids_f_future.jpg">
+		<img src="images/kids_f_future.jpeg">
 		<table>
 			<tr>
 				<td>Item Name</td>
@@ -65,7 +72,7 @@
 	<br>
 	
 	<div style="display:flex">
-		<img src="images/kids_tshirt.jpg">
+		<img src="images/kids_tshirt.jpeg">
 		<table>
 			<tr>
 				<td>Item Name</td>
@@ -114,7 +121,7 @@
 	<div class="categories">Kids Dress</div>
 	<hr>
 	<div style="display:flex">
-		<img src="images/kids_dress.jpg">
+		<img src="images/kids_dress.jpeg">
 		<table>
 			<tr>
 				<td>Item Name</td>
@@ -162,7 +169,7 @@
 	<div class="categories">Kids Footware</div>
 	<hr>
 	<div style="display:flex">
-		<img src="images/kids_vans_disney.jpg">
+		<img src="images/kids_vans_disney.jpeg">
 		<table>
 			<tr>
 				<td>Item Name</td>
@@ -205,7 +212,7 @@
 	<br>
 	
 	<div style="display:flex">
-		<img src="images/kids_vans_sk8hi.jpg">
+		<img src="images/kids_vans_sk8hi.jpeg">
 		<table>
 			<tr>
 				<td>Item Name</td>
@@ -248,5 +255,44 @@
 		</table>
 	</div>
 	
+	<footer>
+		<div class="sitemap">
+			<div class="sitemap-body">
+				<div class="sitemap-item"></div>
+				<div class="sitemap-item">
+					<hr style="width: 100%;">
+					<ul>
+						<li><a href="#">Men's clothing</a></li>
+						<li><a href="#">Women's clothing</a></li>
+						<li><a href="#">Kids</a></li>
+						<li><a href="#">Home decor</a></li>
+						<li><a href="#">Electronics</a></li>
+						<li><a href="#">Furniture</a></li>
+					</ul>
+				</div>
+				<div class="sitemap-item">
+					<hr style="width: 100%;">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Shop online</a></li>
+					</ul>
+				</div>
+				<div class="sitemap-item">
+					<hr style="width: 100%;">
+					<ul>
+						<li><a href="#">Map</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="sitemap-item"></div>
+			</div>
+		</div>
+		<div class="footer-section">
+			<p>This site was created by CSAT group 2 under the supervision of Mr. Ahmad</p>
+			<p>&copy; All Copyrights reserved to Team Group 2</p>
+		</div>
+
+	</footer>
 </body>
 </html>

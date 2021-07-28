@@ -1,0 +1,44 @@
+#shopping {
+    border: 3px dotted red;
+
+}
+#shopping label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#shopping select {
+    width: 13%;
+    height: 5%;
+}
+.userDiv {
+    display: flex;
+    margin-left: 10%;
+    border: 2px dashed #04AA6D;
+    margin-right: 10%;
+}
+.userDiv > form > div {
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 100%;
+}
+.para {
+    text-align: center;
+    background-color: azure;
+    font-size: 20px;
+    
+}
+#forder {
+    text-align: center;
+    margin-left: 45%;
+    height: 40px;
+    width: 120px;
+    border-radius: 5%;
+    background: #04AA6D;
+    margin-top: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+}

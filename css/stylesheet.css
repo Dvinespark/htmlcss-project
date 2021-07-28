@@ -1,3 +1,4 @@
+/* navbar section */
 .navbar {
   margin-top: 10px;
   line-height: 50px;
@@ -49,6 +50,15 @@
 .searchbar button:hover {
   background: #ccc;
 }
+/* End of navbar section */
+
+.category-title{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  background-color: azure;
+}
 
 header {
   background-image: url("images/home_main.jpg");
@@ -92,8 +102,19 @@ table {
   color: rebeccapurple;
   
 }
-
-.categoryDiv > span {
+.category-item-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+.category-item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: azure;
+}
+.category-item .item {
   width: 30%;
 }
 
@@ -104,24 +125,46 @@ table {
   margin-left: 15%;
   margin-bottom: 5%;
 }
-footer h2 {
+
+/* Sitemap section */
+
+.sitemap {
+  background-color: #009688;
   text-align: center;
 }
-.sitemap {
+.sitemap .sitemap-body{
   display: flex;
   flex-direction: row;
-  height: 100px;
-  flex-wrap: nowrap;
-  background-color: cadetblue;
+  text-align: center;
+  align-items:flex-start;
 }
-.sitemap .sitemap-item {
-  margin: 10px;
-  padding:10px;
-  width: 30%;
+.sitemap-body .sitemap-item {
+  width: 20%;
+  margin: 5px;
 }
+.sitemap-item ul{
+  
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+.sitemap-item a {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sitemap-item a:hover{
+  background-color: #ccc;
+}
+
+/* Footer Secion */
 .footer-section {
   margin-top:4px;
   padding: 10px;
   text-align: center;
-  background-color: darkcyan;
+  background-color: #009688;
+  color: #fff;
+  font-size: 20px;
 }

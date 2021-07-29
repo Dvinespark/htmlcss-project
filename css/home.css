@@ -186,3 +186,13 @@ header {
 #categoriesForm select {
   width: 120px;
 }
+
+.item img:hover{
+	transform: scale(1.1);
+
+}
+
+.item p {
+  font-size: 20px;
+  font-weight:bold;
+}
